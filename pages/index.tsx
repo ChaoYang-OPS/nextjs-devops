@@ -21,6 +21,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
+        {/*https://developer.mozilla.org/en-US/docs/Web/JavaScript*/}
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
@@ -47,6 +48,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Deploy &rarr;</h2>
+            <h3>Hello Next js</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
